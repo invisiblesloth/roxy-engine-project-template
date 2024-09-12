@@ -1,0 +1,72 @@
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+pdex.dylib
+pdex.dylib.dSYM
+pdex.elf
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# IDE and editor files
+.vscode
+
+# Build directories and files
+build/
+*.d
+*.gcno
+*.gcda
+*.pdb
+*.ilk
+*.stackdump
+*.lst
+setup.o
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Editor swap files
+*.swo
+*.swp
+
+# Ignore compiled .pdx files
+*.pdx
+
+# Git files to include
+!.gitmodules  # Ensure the .gitmodules file is included

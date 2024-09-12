@@ -1,0 +1,6 @@
+name=GameName
+author=Author
+description=This is a Roxy Engine game.
+bundleID=com.yourdomain.GameName
+version=0.1.0
+buildNumber=1
