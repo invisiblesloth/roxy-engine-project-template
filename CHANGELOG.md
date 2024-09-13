@@ -1,3 +1,10 @@
+### Version 0.1.2 - 13-Sep 2024
+
+- **.gitignore Refinement:**
+  - Removed the inline comment next to the `support/` directory entry in `.gitignore` to ensure proper exclusion of the folder from tracking. This update improves clarity and prevents issues with folder exclusion for local project-specific notes.
+
+These minor improvements enhance the functionality of the `.gitignore` file, ensuring that the repository structure remains clean and that local files are appropriately ignored.
+
 ### Version 0.1.1 - 13-Sep 2024
 
 - **.gitignore Enhancements:**
