@@ -70,14 +70,26 @@ Below are instructions for common Git clients, as well as the command line metho
 
 [Nova](https://nova.app/) is a lightweight and modern IDE for macOS created by Panic, the team behind the Playdate. Nova integrates well with the Playdate simulator, but does not automatically recurse submodules when cloning. Here's how to clone with submodules manually using Nova:
 
-1. In Nova, open the **Terminal** from within the IDE (`New > Local Terminal`).
-2. Run the following command to clone the repository and recurse the submodules:
-   
+1. **Clone the Repository with Submodules:**
+
+   In Nova, open the **Terminal** from within the IDE (`File > New > Local Terminal`), and run the following command:
+
    ```zsh
    git clone --recurse-submodules https://github.com/invisiblesloth/roxy-engine-project-template path/to/yourprojectfolder
    ```
 
-This will ensure that both the project files and the Roxy Engine submodule are cloned.
+   This will ensure that both the project files and the Roxy Engine submodule are cloned.
+
+2. **Configure the Playdate Simulator Task (if added):**
+
+   If you've added the **Playdate Simulator** task in Nova, you'll need to adjust the build settings to ensure the C code is compiled before the Lua code:
+
+   - Go to `Tasks > Playdate Simulator > Build`.
+   - Set the **Toolchain** to "Make (C/Lua)".
+
+   ![Nova Build Settings](Nova-Build-Settings.png)
+
+   This setting ensures that the C code is built first. Since the Lua code depends on compiled C code, failing to build the C code first will result in `nil` references in your Lua scripts.
 
 #### Via Git Command Line
 
@@ -148,6 +160,20 @@ For a detailed history of changes and updates, please see the [CHANGELOG.md](./C
 - **Feature Updates:** Update the template to demonstrate new features when Roxy Engine is enhanced.
 
 *Note: This roadmap represents a prioritized list of planned features. It is not a strict timeline, and features may be added, removed, or adjusted as development progresses.*
+
+***
+
+### Sponsorship & Support
+
+While Roxy and the project template are free and open-source under the MIT License, we welcome any support from the community. We're developing Roxy primarily for our own use in creating Playdate games, and while financial contributions are appreciated, they're entirely voluntary and not expected.
+
+- **GitHub Sponsors:** The easiest way to support us is through [GitHub Sponsors](https://github.com/sponsors/invisiblesloth). Any contribution is entirely voluntary and greatly appreciated.
+
+- **Itch.io:** We also have a "name your own price" download available on [itch.io](https://invisiblesloth.itch.io/roxy-engine), which directs users to this GitHub repository.
+
+**Important Note:** Payment is entirely voluntary. Roxy and the project template are both free under the MIT License. No one should feel obligated to pay for this project. In fact, since Roxy is currently in a pre-release (v0.x.x) state, it might be best to wait before investing significant time or money into a Roxy-based project. However, if you'd like to support our work and help us improve Roxy, these are the ways you can do so.
+
+Thank you for your support!
 
 ***
 
