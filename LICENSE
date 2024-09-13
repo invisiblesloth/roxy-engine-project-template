@@ -31,7 +31,7 @@ SOFTWARE.
 
 ## Roxy Engine License
 
-This template uses the **Roxy Game Engine** as a submodule. The Roxy Game 
+This template uses the Roxy Game Engine as a submodule. The Roxy Game 
 Engine is licensed under the MIT License. Please refer to the `roxy-engine` 
 repository for its full license information.
 
@@ -40,7 +40,7 @@ repository for its full license information.
 ## Inspiration
 
 Portions of this project template were inspired by and derived from Mark 
-LaCroix's and Noble Robot's **Noble Engine: project template**. The 
+LaCroix's and Noble Robot's Noble Engine: project template. The 
 implementation has been tailored to fit the specific needs and design patterns 
 used by Roxy, incorporating similar structure and functionalities. We aim to 
 continue developing Roxy and this project template as a bespoke and customized 
