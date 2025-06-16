@@ -13,9 +13,9 @@ The fast way to start building Playdate games using [Roxy](https://github.com/in
 1. Click the "Use this template" button above.
 2. Choose "Create a new repository".
 3. Name your project and select visibility (public/private).
-4. Close your new repository locally:
+4. Clone your new repository locally:
    ```bash
-   git clone --recurse-submodules https://github.com/your-username/your-new-repo
+   git clone --recurse-submodules https://github.com/your-username/your-new-repo.git
    ```
 
 > 💡 The `--recurse-submodules` flag makes sure that Roxy Engine is cloned into `source/libraries/`.
