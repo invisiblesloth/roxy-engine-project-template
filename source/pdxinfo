@@ -1,0 +1,6 @@
+name=Game Name
+author=Your Name or Studio
+description=A short description of your game.
+bundleID=com.yourdomain.gamename
+version=0.1.0
+buildNumber=1
