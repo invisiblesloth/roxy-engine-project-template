@@ -10,7 +10,9 @@ pd.display.setRefreshRate(30)
 
 -- (3) Register Scenes
 import "scenes/ExampleScene"
-roxy.Scene.registerScenes({ExampleScene = ExampleScene})
+roxy.Scene.registerScenes({
+  ExampleScene = ExampleScene
+})
 
 -- (4) Launch the Game
 roxy.new(ExampleScene)
