@@ -1,6 +1,6 @@
 # Roxy Engine Project Template
 
-The fast way to start building Playdate games using [Roxy](https://github.com/invisiblesloth/roxy-engine). This project template includes the engine as a submodule, a recommended folder structure, and a ~~working~~ *soon to be working* build setup to get your going.
+The fast way to start building Playdate games using [Roxy](https://github.com/invisiblesloth/roxy-engine). This project template includes the engine as a submodule, a recommended folder structure, and a working build setup to get your going.
 
 > **Note:** Roxy is currently in pre-release. Features and APIs may evolve before version 1.0.
 
@@ -38,7 +38,7 @@ If you're not using Git:
 
 Questions or feedback? Contact us at [support@invisiblesloth.com](mailto:support@invisiblesloth.com). We would love to hear about your experience using Roxy!
 
-## License ✅
+## License ⚖️
 
 This project is licensed under the MIT License.
 
