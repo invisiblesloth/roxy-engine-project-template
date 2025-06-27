@@ -18,5 +18,5 @@ local scene = ExampleScene
 
 function scene:update(dt)
   drawText("This is an example scene.", 20, 20)
-  print(dt)
+  drawText("Delta Time: " .. dt, 20, 50)
 end
