@@ -2,17 +2,26 @@
 
 local pd <const> = playdate
 
--- (1) Initialize the Roxy game engine
+-- (1) Import the Roxy game engine
 import "libraries/roxy/roxy"
 
--- (2) Set Frame Rate
+-- (2) (Optional) Set frame rate
 pd.display.setRefreshRate(30)
 
--- (3) Register Scenes
+-- (3) Initialize Roxy Engine
+local config = {
+  logLevel = "warn",
+  debugging = {
+    showFPS = false
+  }
+}
+roxy.init(config)
+
+-- (4) Register scenes
 import "scenes/ExampleScene"
 roxy.Scene.registerScenes({
   ExampleScene = ExampleScene
 })
 
--- (4) Launch the Game
-roxy.new(ExampleScene)
+-- (5) Launch your game
+roxy.start(ExampleScene)
