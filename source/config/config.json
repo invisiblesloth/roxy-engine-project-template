@@ -1,0 +1,14 @@
+{
+  "transitions": {
+    "overrides": {
+      },
+      "CrossDissolve": {
+        "duration": 0.75
+      },
+      "ImageTable": {
+        "duration": 2,
+        "holdTime": 0
+      }
+    }
+  }
+}
