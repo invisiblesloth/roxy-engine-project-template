@@ -1,7 +1,6 @@
 {
   "transitions": {
     "overrides": {
-      },
       "CrossDissolve": {
         "duration": 0.75
       },
