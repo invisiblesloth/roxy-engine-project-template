@@ -16,7 +16,6 @@ endif
 VPATH +=  \
           source/libraries/roxy \
           source/libraries/roxy/core/animations \
-          source/libraries/roxy/core/modules \
           source/libraries/roxy/core/sequences \
           source/libraries/roxy/core/sprites \
           source/libraries/roxy/core/transitions \
@@ -26,7 +25,6 @@ VPATH +=  \
 SRC =   \
         source/libraries/roxy/roxy.c \
         source/libraries/roxy/core/animations/roxy_animation.c \
-        source/libraries/roxy/core/modules/roxy_input.c \
         source/libraries/roxy/core/sequences/roxy_sequence.c \
         source/libraries/roxy/core/sprites/roxy_particles.c \
         source/libraries/roxy/core/transitions/roxy_transition.c \
