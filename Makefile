@@ -18,6 +18,7 @@ VPATH +=  \
           source/libraries/roxy/core/animations \
           source/libraries/roxy/core/sequences \
           source/libraries/roxy/core/sprites \
+          source/libraries/roxy/core/tilemaps \
           source/libraries/roxy/core/transitions \
           source/libraries/roxy/utilities
 
@@ -27,6 +28,7 @@ SRC =   \
         source/libraries/roxy/core/animations/roxy_animation.c \
         source/libraries/roxy/core/sequences/roxy_sequence.c \
         source/libraries/roxy/core/sprites/roxy_particles.c \
+        source/libraries/roxy/core/tilemaps/roxy_tileRenderer.c \
         source/libraries/roxy/core/transitions/roxy_transition.c \
         source/libraries/roxy/utilities/roxy_ease.c \
         source/libraries/roxy/utilities/roxy_math.c
