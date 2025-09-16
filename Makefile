@@ -14,11 +14,12 @@ endif
 
 # ------------------------------------------------------------------------------
 # Heap Guard toggle (0=off, 1=on). CLI overrides:
-#   make                 -> HEAP_GUARD=0 (default)
-#   make release         -> HEAP_GUARD=0
-#   make debug           -> HEAP_GUARD=1 (+ debug/asan flags)
-#   make HEAP_GUARD=1    -> guard on for any target
+#   make              --> HEAP_GUARD=0 (default)
+#   make release      --> HEAP_GUARD=0
+#   make debug        --> HEAP_GUARD=1 (+ debug/asan flags)
+#   make HEAP_GUARD=1 --> guard on for any target
 # ------------------------------------------------------------------------------
+
 HEAP_GUARD ?= 0
 
 # Convenience targets that forward to 'all' but tweak flags first
@@ -63,6 +64,7 @@ endif
 # ------------------------------------------------------------------------------
 # Source lookup paths
 # ------------------------------------------------------------------------------
+
 VPATH +=  \
           source/libraries/roxy \
           source/libraries/roxy/core/animations \
@@ -75,6 +77,7 @@ VPATH +=  \
 # ------------------------------------------------------------------------------
 # C sources
 # ------------------------------------------------------------------------------
+
 SRC =   \
         source/libraries/roxy/roxy.c \
         source/libraries/roxy/core/animations/roxy_animation.c \
